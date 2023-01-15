@@ -1,0 +1,97 @@
+.app-about {
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.app-info {
+  align-self: center;
+  justify-self: center;
+  padding: 10px 1px;
+}
+.app-info h3 {
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 5px;
+  font-family: garamond;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
+  font-weight: 300;
+}
+.app-info h1 {
+  font-size: 22px;
+  color: #0083ca;
+  padding: 10px;
+  align-items: center;
+  font-weight: 500;
+  font-family: Cormorant;
+}
+
+.app-info p {
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 5px;
+  font-family: garamond;
+  text-align: left;
+  text-transform: none;
+  font-weight: 300;
+  line-height: normal;
+}
+span {
+  text-transform: capitalize !important;
+}
+
+@media screen and (min-width: 2000px) {
+  .app-about {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app-info h1 {
+    font-size: 2rem;
+  }
+  .app-info p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app-about {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+  }
+  .app-info > h1 {
+    text-align: center;
+  }
+  .app-info > h3 {
+    font-size: 19px;
+  }
+
+  .app-info ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app-about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-info p {
+    font-size: 20px;
+  }
+}

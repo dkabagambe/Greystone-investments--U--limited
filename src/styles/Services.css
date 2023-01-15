@@ -1,0 +1,74 @@
+.equip {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.service {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.services h2 {
+  color: var(--color-black);
+  align-items: center;
+  padding: 3px 5px;
+  font-size: 1.5rem;
+  font-family: var(--font-base);
+  font-weight: 550;
+}
+.service p {
+  color: var(--color-black);
+  align-items: center;
+  margin: 20px 5px;
+  font-size: 20px;
+  font-family: var(--font-base);
+  font-weight: 500;
+}
+.tools {
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+.tdBefore {
+  display: none;
+}
+th {
+  text-align: left;
+  font-size: 18px;
+  color: #000 !important;
+  font-family: garamond;
+  content: normal;
+  margin: auto 5px;
+}
+
+td {
+  text-align: center;
+  align-items: center;
+  border: 1px dotted #001;
+  font-family: var(--font-base);
+  font-size: 18px;
+  color: #000;
+  font-family: garamond;
+  line-height: 1.4;
+}
+li {
+  list-style: none;
+  text-transform: capitalize;
+}
+table caption {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: garamond;
+  margin-bottom: 20px;
+  text-align: center;
+}
+table {
+  justify-self: center;
+  align-self: center;
+}
