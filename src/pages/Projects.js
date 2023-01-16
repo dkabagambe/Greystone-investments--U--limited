@@ -412,27 +412,142 @@ const Projects = () => {
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
-            {/* <Tr>
-              <Td>February 2014 </Td>
-              <Td>2015</Td>
-              <Td>1 year </Td>
+            <Tr>
+              <Td>11th October 2021 </Td>
+              <Td>23rd May 2022</Td>
+              <Td>8 months </Td>
               <Td>
-                <strong> Contract Name: </strong>rehabilitation of 15.6km of
-                community access roads in kagongi sub-county ,Mbarara District
-                Local Government
+                <strong> Contract Name: </strong>construction &Rehabilitation of
+                Kagongi-BuwamaCommunity Access Road (33km) Contract Ref:
+                NAK(LEGS)WRKS/20-21/00001-10/7
                 <br />
-                <strong> Description of the works:</strong>Earthworks, drainage
-                works, gravelling and bridge works.
+                <strong> Description of the works:</strong>Drainage ,Earthworks,
+                Pavement &Ancillary Roadworks
                 <br />
-                <strong> Amount of the Contract:</strong> UGX 1,093,482,075
+                <strong> Amount of the Contract:</strong> UGX 2,020,754,400
                 <br />
-                <strong> Name of the Employer:</strong>Mbarara District Local
-                Government
-                <br />
-                Address: P.O.BOX 01,Mbarara
+                <strong> Name of the Employer:</strong>China Communications
               </Td>
               <Td> Main Contractor </Td>
-            </Tr> */}
+            </Tr>
+            <Tr>
+              <Td> 9th May 2019 </Td>
+              <Td>8th January 2022</Td>
+              <Td>3 years </Td>
+              <Td>
+                <strong> Contract Name: </strong>Design And Build Of Masindi
+                Kisanja-Park Junction And Tangi Junction –Paraa-Bulisa Roads
+                Upgrading Project(159km)Package 1
+                <br />
+                <strong> Description of the works:</strong>Drainage ,Earthworks,
+                Pavement &Ancillary Roadworks
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 12,983,905,739
+                <br />
+                <strong> Name of the Employer:</strong>China Communications
+                Construction Company <br />
+                <strong>Email:dnf@cfhec.com </strong>
+              </Td>
+              <Td> Sub-Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>27th July 2020 </Td>
+              <Td> 20th August 2021</Td>
+              <Td>1 year & 1 month </Td>
+              <Td>
+                <strong> Contract Name: </strong>Periodic Maintenance of
+                selected unpaved roads under framework contracts for 23 UNRA
+                Stations. Lot 06 Kabale station
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling
+                <br />
+                <strong> Amount of the Contract:</strong>UGX 7,748,712,490
+                <br />
+                <strong> Name of the Employer:</strong>Uganda National Roads
+                Authority – Kabale Station <br />
+                Address: P.O.Box 248434 Kampala
+              </Td>
+              <Td>Main Contractor</Td>
+            </Tr>
+            <Tr>
+              <Td>2020 </Td>
+              <Td>2021</Td>
+              <Td>1 year</Td>
+              <Td>
+                <strong> Contract Name: </strong>Mechanized Maintenance of
+                selected unpaved roads under framework contracts for 3 years ;
+                totaling to 319km
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling
+                <br />
+                <strong> Amount of the Contract:</strong>UGX 5,198,494,484
+                <br />
+                <strong> Name of the Employer:</strong>Uganda National Roads
+                Authority – Kabale Station <br />
+                Address: P.O.Box 248434 Kampala
+              </Td>
+              <Td>Main Contractor</Td>
+            </Tr>
+            <Tr>
+              <Td>2020 </Td>
+              <Td>2021</Td>
+              <Td>1 year</Td>
+              <Td>
+                <strong> Contract Name: </strong>Mechanized Maintenance of
+                selected unpaved roads under framework contracts for 3 years lot
+                11 ; totaling to 319km <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling
+                <br />
+                <strong> Amount of the Contract:</strong>UGX 3,698,507,394
+                <br />
+                <strong> Name of the Employer:</strong>Uganda National Roads
+                Authority – Kabale Station <br />
+                Address: P.O.Box 248434 Kampala
+              </Td>
+              <Td>Main Contractor</Td>
+            </Tr>
+            <Tr>
+              <Td> 11th April 2019 </Td>
+              <Td>11th April 2020</Td>
+              <Td>12 months </Td>
+              <Td>
+                <strong> Contract Name: </strong>Rehabilitation of Selected
+                Gravel Roads in Bulisa District Contract no:
+                MLHUD/WORKS/2017-18/00485
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling
+                <br />
+                <strong> Amount of the Contract:</strong>UGX 6,359,779,348
+                <br />
+                <strong> Name of the Employer:</strong>Ministry of Works &
+                Transport
+              </Td>
+              <Td>Main Contractor</Td>
+            </Tr>
+            <Tr>
+              <Td>2018 </Td>
+              <Td>2020</Td>
+              <Td>3 years</Td>
+              <Td>
+                <strong> Contract Name: </strong>Mechanized Maintenance Of
+                Selected Un paved National Roads Under Framework Contracts For 3
+                Years Totaling to (319km )
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling
+                <br />
+                <strong> Amount of the Contract:</strong>UGX 20,877,603,109
+                <br />
+                <strong> Name of the Employer:</strong>: Uganda National Roads
+                Authority – Kabale Station <br />
+                Address: P.O.Box 248434 Kampala
+              </Td>
+              <Td>Main Contractor</Td>
+            </Tr>
           </Tbody>
         </Table>
       </div>
