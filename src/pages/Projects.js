@@ -403,7 +403,7 @@ const Projects = () => {
                 <strong> Description of the works:</strong>Earthworks, drainage
                 works, gravelling and bridge works.
                 <br />
-                <strong> Amount of the Contract:</strong> UGX 1,,093,482,075
+                <strong> Amount of the Contract:</strong> UGX 1,093,482,075
                 <br />
                 <strong> Name of the Employer:</strong>Mbarara District Local
                 Government
@@ -412,7 +412,7 @@ const Projects = () => {
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
-            <Tr>
+            {/* <Tr>
               <Td>February 2014 </Td>
               <Td>2015</Td>
               <Td>1 year </Td>
@@ -424,7 +424,7 @@ const Projects = () => {
                 <strong> Description of the works:</strong>Earthworks, drainage
                 works, gravelling and bridge works.
                 <br />
-                <strong> Amount of the Contract:</strong> UGX 1,,093,482,075
+                <strong> Amount of the Contract:</strong> UGX 1,093,482,075
                 <br />
                 <strong> Name of the Employer:</strong>Mbarara District Local
                 Government
@@ -432,7 +432,7 @@ const Projects = () => {
                 Address: P.O.BOX 01,Mbarara
               </Td>
               <Td> Main Contractor </Td>
-            </Tr>
+            </Tr> */}
           </Tbody>
         </Table>
       </div>
