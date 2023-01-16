@@ -1,34 +1,34 @@
-import { useRef } from "react";
+// import { useRef } from "react";
 import "../styles/contact.css";
 import { MdLockOutline, MdCallEnd } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_lbveonj",
-        "template_tk08jst",
-        form.current,
-        "IaD2VR089lJmkpBd2"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
+  //   emailjs
+  //     .sendForm(
+  //       "service_lbveonj",
+  //       "template_tk08jst",
+  //       form.current,
+  //       "IaD2VR089lJmkpBd2"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
 
-          e.target.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  //         e.target.reset();
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <div className="contact">
@@ -96,7 +96,7 @@ const Contact = () => {
         </p>
       </div>
       <div className="form-item">
-        <form ref={form} onSubmit={sendEmail}>
+        <form>
           <label>Name</label>
           <div>
             <input type="text" name="user_name" />
