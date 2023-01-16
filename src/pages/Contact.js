@@ -9,16 +9,15 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    // e.preventDefault();
-    e.target.reset();
+    e.preventDefault();
 
     emailjs
-      .sendForm
-      // "service_lbveonj",
-      // "template_tk08jst",
-      // form.current,
-      // "IaD2VR089lJmkpBd2"
-      ()
+      .sendForm(
+        "service_lbveonj",
+        "template_tk08jst",
+        form.current,
+        "IaD2VR089lJmkpBd2"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -111,7 +110,7 @@ const Contact = () => {
             <textarea name="message" />
           </div>
           <div>
-            <input type="submit" className="btn" />
+            <input type="submit" value="Send" className="btn" />
           </div>
         </form>
       </div>
