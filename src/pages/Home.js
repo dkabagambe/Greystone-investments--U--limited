@@ -66,19 +66,19 @@ const Home = () => {
         <SwiperSlide className={styles.swiperslide}>
           <div>
             <img src={muyumbu} alt="slider" />
-            <span>Road construction in muyumbu </span>
+            <span>Road construction in Butobere -Muyumbu road</span>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
           <div>
             <img src={Butobere} alt="slider" />
-            <span>Road construction in Butobere </span>
+            <span>Road construction in Butobere -Muyumbu road </span>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
           <div>
             <img src={Butobere1} alt="slider" />
-            <span>Road construction in Butobere</span>
+            <span>Road construction in Butobere -Muyumbu road</span>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
