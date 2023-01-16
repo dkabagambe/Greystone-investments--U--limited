@@ -96,7 +96,8 @@ const Contact = () => {
         </p>
       </div>
       <div className="form-item">
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form}>
+          {/* onSubmit={sendEmail} */}
           <label>Name</label>
           <div>
             <input type="text" name="user_name" />
