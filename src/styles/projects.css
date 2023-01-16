@@ -28,9 +28,10 @@ Tr {
   font-weight: 300;
 }
 strong {
-  list-style: none;
   text-transform: none;
   font-family: garamond;
+  color: #000;
+  font-weight: 600;
 }
 caption {
   font-size: 20px;

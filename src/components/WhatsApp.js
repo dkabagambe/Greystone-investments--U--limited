@@ -8,7 +8,7 @@ const WhatsApp = () => {
     <div>
       <ReactWhatsapp
         // number="2-567-046-22476"
-        number="2-567-024-61511"
+        number="2-567-046-22476"
         message="Hello i got this number from greystoneinvestmentsltd.com!!!"
         className="whatsapp_float"
       >
