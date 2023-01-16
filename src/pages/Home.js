@@ -29,7 +29,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Home = () => {
   return (
     <div className={styles.container}>
-      <h2>Greystone Investments (U) Limited</h2>
+      <h2>Greystone Investments Limited</h2>
 
       <Swiper
         // install Swiper modules

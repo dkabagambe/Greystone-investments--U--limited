@@ -9,7 +9,7 @@ const WhatsApp = () => {
       <ReactWhatsapp
         // number="2-567-046-22476"
         number="2-567-024-61511"
-        message="Hey i got this number from Greystone Investments (U) Limited!!!"
+        message="Hello i got this number from greystoneinvestmentsltd.com!!!"
         className="whatsapp_float"
       >
         <FaWhatsapp className="whatsapp" />

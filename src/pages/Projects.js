@@ -48,11 +48,11 @@ const Projects = () => {
                 Pavement &Ancillary Roadworks <br />
                 <strong> Amount of the Contract:</strong> UGX 12,983,905,739
                 <br />
-                <strong> Name of the Employer:</strong> China Communications
-                Construction Company <br />
+                <strong> Name of the Employer:</strong> UNRA
+                <br />
                 <strong>Email:dnf@cfhec.com </strong>
               </Td>
-              <Td> Main Contractor </Td>
+              <Td> Sub-Contractor </Td>
             </Tr>
             <Tr>
               <Td>27th July 2020 </Td>
@@ -239,6 +239,197 @@ const Projects = () => {
                 <strong> Name of the Employer:</strong>Uganda National Roads
                 Authority (UNRA)-Mbarara- Station <br />
                 Address: P.O. Box P.O.Box 4 Mbarara
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>2015 </Td>
+              <Td>2016 </Td>
+              <Td>1 year </Td>
+              <Td>
+                <strong> Contract Name: </strong>Rehabilitation of Nyeihanga
+                -yeimpitsi -Rwakaberengye Kikagate(22.7km),Karera
+                -TI&Karera-Kisoroza Roads (2.7km)
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling And bridge works.
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 32,059,984,817
+                <br />
+                <strong> Name of the Employer:</strong>Kabwohe District Local
+                Government <br />
+                Address: P.O.Box160 Kabwohe
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>June 2014 </Td>
+              <Td>August 2015 </Td>
+              <Td> 1 year &3 months </Td>
+              <Td>
+                <strong> Contract Name: </strong>periodic mantainance of 12
+                selected National Roads (11 Lots) ; lot 10 Nyakabirizi -Burere
+                Nsika road (45km)
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling And bridge works.
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 1,482,940,000
+                <br />
+                <strong> Name of the Employer:</strong>Uganda National Roads
+                Authority (UNRA)
+                <br />
+                Address: (UNRA Kampala)
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>February 2014 </Td>
+              <Td>2015 </Td>
+              <Td> 1 year </Td>
+              <Td>
+                <strong> Contract Name: </strong>periodic mantainance of 12
+                selected National Roads (11 Lots) ; lot 10 Nyakabirizi -Burere
+                Nsika road (45km)
+                <br />
+                <strong> Description of the works:</strong>Rehabilitation of
+                15.6km of community Access roads in kagongi sub-county ,Mbarara
+                district local Government
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 1,093,482,075
+                <br />
+                <strong> Name of the Employer:</strong>Mbarara District Local
+                Government
+                <br />
+                Address: P.O Box 01, Mbarara
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>5th Nov 2013 </Td>
+              <Td>29th May 2015</Td>
+              <Td> 2 years & 6 months </Td>
+              <Td>
+                <strong> Contract Name: </strong>Rehabilitation of 15.6km of
+                community Access roads -Kamurinda -kakindoo-Muzia -kalyango Road
+                in Kyangyenyi Sub-county sheema District Local Government
+                <br />
+                <strong> Description of the works:</strong>Rehabilitation of
+                15.6km of community Access roads in kagongi sub-county ,Mbarara
+                district local Government
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 2,145,177,775
+                <br />
+                <strong> Name of the Employer:</strong>sheema District Local
+                Government
+                <br />
+                Address: P.O.Box 160 Kabwohe
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>Feb 2012 </Td>
+              <Td>Feb 2013 </Td>
+              <Td> 1 year </Td>
+              <Td>
+                <strong> Contract Name: </strong>Construction of 1 stored ,3
+                Classroom block with library ,2 storied 6 Classroom block with
+                multi-purpose rooms ,4 fivr stance VIP Latrines , I
+                administrative block at Asinge secondary school in Tororo
+                District
+                <br />
+                <strong> Description of the works:</strong>general construction
+                works ,Renovations and refurbishments ,civil works and supplies
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 1,276,057,474
+                <br />
+                <strong> Name of the Employer:</strong>Asinge secondary
+                /ministry of Education and sports
+                <br />
+                Address: P.O Box 678,Tororo
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>22nd November 2013 </Td>
+              <Td>7th February 2015</Td>
+              <Td>2 years & 3 months </Td>
+              <Td>
+                <strong> Contract Name: </strong>construction of double storeyed
+                Nine classroom block at Kamwokya Primary school
+                <br />
+                <strong> Description of the works:</strong>General civil works,
+                electrical installation, mechanical installation and furniture
+                supplies
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 1,125,369,066
+                <br />
+                <strong> Name of the Employer:</strong>Kampala Capital city
+                Authority
+                <br />
+                Address: P.O Box Kampala, Uganda
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>February 2014 </Td>
+              <Td>2015</Td>
+              <Td>1 year </Td>
+              <Td>
+                <strong> Contract Name: </strong>periodic maintenance of
+                selected National Roads (11 Lots); lot 10 Nyakabirizi-Burere
+                -Nsika Road (45km)
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling and bridge works.
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 1,482,940,000
+                <br />
+                <strong> Name of the Employer:</strong>UNRA
+                <br />
+                Address: P.O.BOX 28487, KAMPALA
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>February 2014 </Td>
+              <Td>2015</Td>
+              <Td>1 year </Td>
+              <Td>
+                <strong> Contract Name: </strong>rehabilitation of 15.6km of
+                community access roads in kagongi sub-county ,Mbarara District
+                Local Government
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling and bridge works.
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 1,,093,482,075
+                <br />
+                <strong> Name of the Employer:</strong>Mbarara District Local
+                Government
+                <br />
+                Address: P.O.BOX 01,Mbarara
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>February 2014 </Td>
+              <Td>2015</Td>
+              <Td>1 year </Td>
+              <Td>
+                <strong> Contract Name: </strong>rehabilitation of 15.6km of
+                community access roads in kagongi sub-county ,Mbarara District
+                Local Government
+                <br />
+                <strong> Description of the works:</strong>Earthworks, drainage
+                works, gravelling and bridge works.
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 1,,093,482,075
+                <br />
+                <strong> Name of the Employer:</strong>Mbarara District Local
+                Government
+                <br />
+                Address: P.O.BOX 01,Mbarara
               </Td>
               <Td> Main Contractor </Td>
             </Tr>

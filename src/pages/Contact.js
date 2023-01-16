@@ -63,6 +63,12 @@ const Contact = () => {
           +256-704-622-476
         </p>
         <p>
+          <BsFillTelephoneFill
+            style={{ color: "#0d367e", marginRight: "10px", fontSize: "15px" }}
+          />
+          +256-706-929-227
+        </p>
+        <p>
           <GrMail
             style={{ color: "#0d367e", marginRight: "10px", fontSize: "14px" }}
           />
