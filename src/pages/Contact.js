@@ -111,7 +111,7 @@ const Contact = () => {
             <textarea name="message" />
           </div>
           <div>
-            <input type="submit" value="Send" className="btn" />
+            <input type="submit" className="btn" />
           </div>
         </form>
       </div>
