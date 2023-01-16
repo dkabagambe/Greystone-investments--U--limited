@@ -12,12 +12,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_lbveonj",
-        "template_tk08jst",
-        form.current,
-        "IaD2VR089lJmkpBd2"
-      )
+      .sendForm
+      // "service_lbveonj",
+      // "template_tk08jst",
+      // form.current,
+      // "IaD2VR089lJmkpBd2"
+      ()
       .then(
         (result) => {
           console.log(result.text);
