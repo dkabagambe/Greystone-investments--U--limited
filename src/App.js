@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Mission from "./pages/Mission";
 import Contact from "./pages/Contact";
 import WhatsApp from "./components/WhatsApp";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/services" element={<Services />} />
           <Route path="/mission" element={<Mission />} />
+          <Route path="/machines" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <WhatsApp />

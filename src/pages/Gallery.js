@@ -1,35 +1,19 @@
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
-import img1 from "../images/teslab.jpg";
-import img2 from "../images/teslac.jpg";
-import img3 from "../images/teslah.jpg";
-import img4 from "../images/transformer.jpg";
-import img5 from "../images/teslaz.jpg";
-import img6 from "../images/tesla1.jpg";
-import img7 from "../images/teslad.jpg";
-import img8 from "../images/teslamv.jpg";
-import img9 from "../images/tesla.jpg";
-import img10 from "../images/tesla10.jpg";
-import img11 from "../images/teslak.jpg";
-import img12 from "../images/tesla6.jpg";
+import img1 from "../img/machines/1.JPG";
+import img2 from "../img/machines/2.JPG";
+import img3 from "../img/machines/3.JPG";
+import img4 from "../img/machines/4.JPG";
+import img5 from "../img/machines/5.JPG";
+import img6 from "../img/machines/6.JPG";
+import img7 from "../img/machines/7.JPG";
+import img8 from "../img/machines/8.JPG";
+import img9 from "../img/machines/9.JPG";
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
-  const images = [
-    img1,
-    img7,
-    img3,
-    img8,
-    img11,
-    img4,
-    img2,
-    img6,
-    img9,
-    img5,
-    img10,
-    img12,
-  ];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
   const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
@@ -42,6 +26,11 @@ const Gallery = () => {
   };
   return (
     <div>
+      <h2
+        style={{ textAlign: "center", paddingBottom: "15px", color: "#0083ca" }}
+      >
+        These are some of our company Machines
+      </h2>
       {images.map((src, index) => (
         <img
           src={src}
