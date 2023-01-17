@@ -11,6 +11,7 @@ import Mission from "./pages/Mission";
 import Contact from "./pages/Contact";
 import WhatsApp from "./components/WhatsApp";
 import Gallery from "./pages/Gallery";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/mission" element={<Mission />} />
           <Route path="/machines" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route element={<NotFoundPage />} />
         </Routes>
         <WhatsApp />
         <Footer />
