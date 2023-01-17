@@ -36,6 +36,7 @@ const Gallery = () => {
           src={src}
           onClick={() => openImageViewer(index)}
           width="300"
+          objectFit="cover"
           key={index}
           style={{ margin: "2px" }}
           alt="gallery-photos"
