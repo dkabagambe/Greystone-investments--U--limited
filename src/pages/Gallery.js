@@ -9,11 +9,26 @@ import img6 from "../img/machines/6.JPG";
 import img7 from "../img/machines/7.JPG";
 import img8 from "../img/machines/8.JPG";
 import img9 from "../img/machines/9.JPG";
+import img10 from "../img/machines/10.JPG";
+import img12 from "../img/machines/12.JPG";
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
+  const images = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img12,
+    img1,
+  ];
 
   const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
@@ -36,9 +51,8 @@ const Gallery = () => {
           src={src}
           onClick={() => openImageViewer(index)}
           width="300"
-          objectFit="cover"
           key={index}
-          style={{ margin: "2px" }}
+          style={{ margin: "2px", objectFit: "cover", height: "600" }}
           alt="gallery-photos"
         />
       ))}
