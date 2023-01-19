@@ -8,7 +8,7 @@ const Mission = () => {
         <h4>Mission Statement</h4>
         <p>
           Greystone Investments Limited is dedicated to providing excellent
-          construction services in Uganda and in the East Africa region. Our
+          construction services in Uganda and in the East African region. Our
           ability to succeed is based on a solid commitment to values of
           integrity and solidarity while ensuring quality,timely completion and
           safety standards
