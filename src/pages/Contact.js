@@ -86,8 +86,12 @@ const Contact = () => {
         <h2>Open Hours</h2>
         <p>Monday to Friday</p>
         <p>8:00 AM - 5:00 PM</p>
-        <p>Saturday</p>
-        <p>8:00 AM - 12:00 PM</p>
+        <p>
+          <MdLockOutline
+            style={{ color: "red", marginRight: "10px", fontSize: "20px" }}
+          />
+          saturday: Closed
+        </p>
         <p>
           <MdLockOutline
             style={{ color: "red", marginRight: "10px", fontSize: "20px" }}
