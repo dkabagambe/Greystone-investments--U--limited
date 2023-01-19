@@ -90,13 +90,13 @@ const Contact = () => {
           <MdLockOutline
             style={{ color: "red", marginRight: "10px", fontSize: "20px" }}
           />
-          saturday: Closed
+          Saturday: Closed
         </p>
         <p>
           <MdLockOutline
             style={{ color: "red", marginRight: "10px", fontSize: "20px" }}
           />
-          sunday: Closed
+          Sunday: Closed
         </p>
       </div>
       <div className="form-item">
