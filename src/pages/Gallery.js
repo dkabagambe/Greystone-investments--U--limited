@@ -11,6 +11,9 @@ import img8 from "../img/machines/8.JPG";
 import img9 from "../img/machines/9.JPG";
 import img10 from "../img/machines/10.JPG";
 import img12 from "../img/machines/12.JPG";
+import img13 from "../img/machines/exc.jpg";
+import img14 from "../img/machines/exc2.jpg";
+import img15 from "../img/machines/roller1.jpg";
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -28,6 +31,9 @@ const Gallery = () => {
     img10,
     img12,
     img1,
+    img13,
+    img14,
+    img15,
   ];
 
   const openImageViewer = useCallback((index) => {

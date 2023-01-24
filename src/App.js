@@ -27,7 +27,7 @@ function App() {
           <Route path="/mission" element={<Mission />} />
           <Route path="/machines" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
-          <Route element={<NotFoundPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <WhatsApp />
         <Footer />
