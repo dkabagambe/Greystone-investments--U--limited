@@ -20,11 +20,11 @@ const Navbar = () => {
         </div>
         <div className="App__navbar-links">
           <Link to="/">Home</Link>
-          <Link to="/machines">Machines</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/clients">Clients</Link>
-          <Link to="/services">Equipment & Facilities</Link>
           <Link to="/about">About</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/machines">Machines</Link>
+          <Link to="/services">Equipment & Facilities</Link>
+          <Link to="/clients">Clients</Link>
           <Link to="/mission">Mission</Link>
           <Link to="/contact">Contacts</Link>
         </div>
@@ -45,13 +45,12 @@ const Navbar = () => {
                 className="overlay__close"
                 onClick={() => setToggleMenu(false)}
               />
-
               <Link to="/">Home</Link>
-              <Link to="/machines">Machines</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/clients">Clients</Link>
-              <Link to="/services">Equipment & Facilities</Link>
               <Link to="/about">About</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/machines">Machines</Link>
+              <Link to="/services">Equipment & Facilities</Link>
+              <Link to="/clients">Clients</Link>
               <Link to="/mission">Mission</Link>
               <Link to="/contact">Contacts</Link>
             </div>
