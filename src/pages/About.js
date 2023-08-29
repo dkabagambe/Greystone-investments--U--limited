@@ -6,13 +6,21 @@ const About = () => {
       <div className="app-info">
         <h1 className="app-h1">Company Overview</h1>
         <h3>
-          <span>Greystone Investments (U) limited</span> is a civil and Building
-          Works Company. The Company was first registered/incoporated on
-          25-May-2009 as M/s Ishaka Muhereza workshop & Building Construction
-          Ltd,but changed names to M/S Greystone Investments Ltd on
-          12th-July-2013. Therefore, the new company takes on the Liabilities
-          and Experience of the Old Company.
+          <span>Greystone Investments (U) limited</span> proudly Ugandan Company
+          incorporated in the year 2009.
         </h3>
+        <p>
+          Greystone is registered and approved by Petroleum Authority of Uganda
+          to legally provide services and supply materials to the oil and gas
+          sector(PAU NSD No: Ns- 13802/2022/2782). <br />
+          Greystone objectives are to provide services in the area of project
+          management , engineering , construction supervision ,logistics and
+          professional staffing and recruiting services to the developing oil,
+          gas sector within Uganda and the East African region . Greystone's
+          staffing Licenses include; Trade Lincense from Kampala city Council
+          Authority COIN 0004902672 PRN 2230008362684. Ministry of Gender,
+          Labour and social Development License No: E22030002
+        </p>
         <p>
           The company became functional and effective in construction work of
           Roads as Ishaka-muhereza Workshop ltd in 2009

@@ -6,6 +6,18 @@
   height: 100%;
   width: 100%;
 }
+.house {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 2px;
+}
+.house > img {
+  object-fit: cover;
+  width: 100%;
+}
 .number {
   padding: 3px 1px;
   flex: 0.3;
