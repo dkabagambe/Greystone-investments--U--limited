@@ -12,14 +12,26 @@ const About = () => {
         <p>
           Greystone is registered and approved by Petroleum Authority of Uganda
           to legally provide services and supply materials to the oil and gas
-          sector(PAU NSD No: Ns- 13802/2022/2782). <br />
-          Greystone objectives are to provide services in the area of project
-          management , engineering , construction supervision ,logistics and
-          professional staffing and recruiting services to the developing oil,
-          gas sector within Uganda and the East African region . Greystone's
-          staffing Licenses include; Trade Lincense from Kampala city Council
-          Authority COIN 0004902672 PRN 2230008362684. Ministry of Gender,
-          Labour and social Development License No: E22030002
+          sector(PAU NSD No: Ns- 13802/2022/2782).
+        </p>
+        <h4>
+          Greystone objectives are to provide services in the following areas
+          of:
+        </h4>
+        <ul>
+          <li>project management</li>
+          <li>engineering </li>
+          <li> construction supervision</li>
+          <li>logistics and professional staffing</li>
+          <li>
+            recruiting services to the developing oil, gas sector within Uganda
+            and the East African region
+          </li>
+        </ul>
+        <p>
+          Greystone's staffing Licenses include; Trade Lincense from Kampala
+          city Council Authority COIN 0004902672 PRN 2230008362684. Ministry of
+          Gender, Labour and social Development License No: E22030002
         </p>
         <p>
           The company became functional and effective in construction work of

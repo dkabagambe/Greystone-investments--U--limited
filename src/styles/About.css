@@ -95,3 +95,28 @@ span {
     font-size: 20px;
   }
 }
+h4 {
+  padding: 15px 10px;
+  font-size: 20px;
+  text-align: justify;
+  color: #0083ca;
+  font-family: Garamond;
+  text-transform: capitalize;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+  font-family: Garamond;
+  padding: 5px;
+  margin: 3px;
+  margin-left: 10px;
+}
+ul li::before {
+  content: "➤";
+  padding-right: 10px;
+  color: #0083ca;
+}
