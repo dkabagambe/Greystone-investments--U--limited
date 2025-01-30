@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../styles/Navbar.css";
 import logos from "../img/greystone-logo.png";
 import { Link, useLocation } from "react-router-dom";
-import { GiHamburgerMenu, GiBulldozer } from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -39,9 +40,9 @@ const Navbar = () => {
           />
           {toggleMenu && (
             <div className="App__navbar-smallscreen-overlay flex__center slide-bottom">
-              <GiBulldozer
-                color="#0083ca"
-                fontSize={30}
+              <MdClose
+                color="red"
+                fontSize={33}
                 className="overlay__close"
                 onClick={() => setToggleMenu(false)}
               />
