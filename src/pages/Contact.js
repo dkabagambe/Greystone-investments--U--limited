@@ -3,7 +3,7 @@ import "../styles/contact.css";
 import { MdLockOutline, MdCallEnd } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
-import house from "../img/machines/exc2.jpg";
+import house from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_174851.jpg";
 // import emailjs from "@emailjs/browser";
 
 const Contact = () => {

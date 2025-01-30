@@ -14,6 +14,8 @@ import img12 from "../img/machines/12.JPG";
 import img13 from "../img/machines/exc.jpg";
 import img14 from "../img/machines/exc2.jpg";
 import img15 from "../img/machines/roller1.jpg";
+import img16 from "../img/machines/dozer.jpeg";
+import img17 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_174851.jpg";
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -34,6 +36,8 @@ const Gallery = () => {
     img13,
     img14,
     img15,
+    img16,
+    img17,
   ];
 
   const openImageViewer = useCallback((index) => {

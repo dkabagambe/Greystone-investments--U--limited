@@ -16,9 +16,7 @@ const Services = () => {
               <Th>Description, make and age (years)</Th>
               <Th>Conditions (new, good, poor) and number available</Th>
 
-              <Th>
-                Owned, Hire, leased (from whom? or to be purchased (from whom?))
-              </Th>
+              <Th>Owned</Th>
             </Tr>
           </Thead>
           <Tbody>
@@ -27,27 +25,39 @@ const Services = () => {
             </Tr>
             <Tr>
               <Td>1.Grader</Td>
-              <Td>CAT 120H</Td>
+              <Td>CAT 120H & CAT 122G</Td>
               <Td>Good, 2 No.</Td>
-              <Td>1 Owned , 1Leased </Td>
+              <Td>Owned </Td>
             </Tr>
             <Tr>
               <Td>2.Bull Dozer</Td>
-              <Td>Caterpillar,966C</Td>
-              <Td>Good, 4 No.</Td>
-              <Td>Leased from BLD consults</Td>
+              <Td>SEM Dozer</Td>
+              <Td>Good, 1 No.</Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td>3.Excavator</Td>
-              <Td>Caterpillar</Td>
-              <Td>Good, 8 No.</Td>
-              <Td>1Owned , 07 Leased </Td>
+              <Td>SANY & CAT </Td>
+              <Td>Good, 2 No.</Td>
+              <Td>Owned </Td>
             </Tr>
             <Tr>
               <Td>4.Roller</Td>
-              <Td>Dynapac</Td>
+              <Td>SANY & CAT </Td>
               <Td>Good, 2 No.</Td>
-              <Td>1Owned , 1 leased </Td>
+              <Td>Owned</Td>
+            </Tr>
+            <Tr>
+              <Td>5.SinoTruck </Td>
+              <Td>Sino truck 40 tonnes</Td>
+              <Td>Good, 4 No.</Td>
+              <Td>Owned</Td>
+            </Tr>
+            <Tr>
+              <Td>6.Water Bowser Truck </Td>
+              <Td>water bowser truck</Td>
+              <Td>Good, 1 No.</Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td colspan="4">EQUIPMENT</Td>
