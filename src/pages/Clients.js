@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Clients.css";
-import img1 from "../img/unra-logo.png";
+import img1 from "../img/maaif.jpeg";
 import img2 from "../img/lands.jpg";
 import img3 from "../img/water and environment.jpg";
 import img4 from "../img/molg.jpg";
