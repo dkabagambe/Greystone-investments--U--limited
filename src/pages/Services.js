@@ -66,7 +66,7 @@ const Services = () => {
               <Td>Tower Crane, </Td>
               <Td>Type E 401, 3T, 45m Height; 36m jib</Td>
               <Td>Good, 1 No.</Td>
-              <Td>Leased</Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td colspan="4">CONCRETE PLANT: -</Td>
@@ -158,7 +158,7 @@ const Services = () => {
               <Td>Double Drum Roller 10 ton (Drive) Bomag BW 80 AD</Td>
               <Td></Td>
               <Td>New, 2 No.</Td>
-              <Td>Leased </Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td colspan="4">WORKSHOP EQUIPMENT:-</Td>
@@ -203,7 +203,7 @@ const Services = () => {
               <Td>Tipper Truck, 25tons Mercedes Benz</Td>
               <Td>2020 Model</Td>
               <Td>Good, 18 No.</Td>
-              <Td>Leased</Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td>Tipper Truck, 7ton ISUZU</Td>
@@ -221,19 +221,19 @@ const Services = () => {
               <Td>Tipper Truck 15 ton ISUZU</Td>
               <Td>1988 Model</Td>
               <Td>Good, 1 No.</Td>
-              <Td>Leased</Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td>Dump Trucks </Td>
               <Td>2019 Model </Td>
               <Td>Good ,3 No </Td>
-              <Td>Leased</Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td>Dump Trucks </Td>
               <Td>2018 Model </Td>
               <Td>Good ,4 No </Td>
-              <Td>Leased</Td>
+              <Td>Owned</Td>
             </Tr>
             <Tr>
               <Td>Self-Loader Mitsubishi (ISUZU) 4 ton</Td>

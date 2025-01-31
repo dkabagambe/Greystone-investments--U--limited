@@ -7,7 +7,6 @@ import About from "./pages/About";
 import Clients from "./pages/Clients";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
-import Mission from "./pages/Mission";
 import Contact from "./pages/Contact";
 import WhatsApp from "./components/WhatsApp";
 import Gallery from "./pages/Gallery";
@@ -24,7 +23,6 @@ function App() {
           <Route path="/clients" element={<Clients />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/mission" element={<Mission />} />
           <Route path="/machines" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFoundPage />} />

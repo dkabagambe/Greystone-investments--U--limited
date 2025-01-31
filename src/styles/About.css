@@ -1,122 +1,146 @@
-.app-about {
+/* General Styles */
+.section {
   padding: 15px;
   margin: 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 100%;
   height: auto;
 }
-.app-info {
-  align-self: center;
-  justify-self: center;
-  padding: 10px 1px;
+
+/* Reverse Layout for Alternating Sections */
+.section.reverse {
+  flex-direction: row-reverse;
 }
-.app-info h3 {
-  font-size: 20px;
-  color: #000;
-  padding-bottom: 5px;
-  font-family: garamond;
-  line-height: 1.5;
-  text-align: left;
-  text-transform: none;
-  font-weight: 300;
-}
-.app-info h1 {
-  font-size: 22px;
-  color: #0083ca;
+
+/* Image Container */
+.image-container {
+  flex: 1;
+  max-width: 40%; /* Adjust as needed */
   padding: 10px;
-  align-items: center;
-  font-weight: 500;
-  font-family: Cormorant;
 }
 
-.app-info p {
-  font-size: 20px;
-  color: #000;
-  padding-bottom: 5px;
-  font-family: garamond;
+/* About Image */
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Container */
+.content-container {
+  flex: 2;
+  max-width: 55%; /* Adjust as needed */
+  padding: 10px;
+}
+
+/* Text Styles */
+.content-container h1 {
   text-align: left;
+  color: #0d367e;
+  text-transform: capitalize;
+  font-size: clamp(60px, 2vw + 1rem, 90px);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+}
+
+.content-container h3 {
+  font-family: Garamond;
   text-transform: none;
-  font-weight: 300;
-  line-height: normal;
-}
-span {
-  text-transform: capitalize !important;
-}
-
-@media screen and (min-width: 2000px) {
-  .app-about {
-    display: flex;
-  }
+  font-weight: 400;
+  font-size: clamp(14px, 5vw, 20px);
+  line-height: clamp(1.5, 1.6, 1.8);
+  text-align: left;
+  color: black;
+  padding-bottom: 5px;
 }
 
+.content-container p {
+  padding-bottom: 5px;
+  font-family: Garamond;
+  text-transform: none;
+  font-weight: 400;
+  font-size: clamp(14px, 5vw, 20px);
+  line-height: clamp(1.5, 1.6, 1.8);
+  text-align: left;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+}
+
+.content-container h4 {
+  text-align: left;
+  color: #0d367e;
+  font-size: clamp(35px, 2vw + 1rem, 45px);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: calc(1 * clamp(10px, 2vw + 1rem, 25px));
+}
+
+.content-container ul {
+  list-style-type: none;
+}
+
+.content-container ul li {
+  padding-bottom: 5px;
+  font-family: Garamond;
+  text-transform: none;
+  font-weight: 400;
+  font-size: clamp(14px, 5vw, 20px);
+  line-height: clamp(1.5, 1.6, 1.8);
+  text-align: left;
+  margin-bottom: calc(0.8 * clamp(50px, 2vw + 1rem, 65px));
+}
+
+.content-container ul li::before {
+  content: "➤";
+  padding-right: 10px;
+  color: #0083ca;
+}
+
+/* Responsive Design */
 @media screen and (max-width: 1150px) {
-  .app-about {
-    display: flex;
+  .section {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 
-  .app-info h1 {
-    font-size: 2rem;
+  .section.reverse {
+    flex-direction: column;
   }
-  .app-info p {
-    font-size: 20px;
+
+  .image-container {
+    max-width: 100%;
+    order: 0 !important; /* Reset order for mobile */
+  }
+
+  .content-container {
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .app-about {
-    display: flex;
-    flex-direction: column;
+  .section {
     margin: 5px 15px;
   }
-  .app-info > h1 {
+
+  .content-container h1,
+  .content-container h4 {
     text-align: center;
   }
-  .app-info > h3 {
+
+  .content-container h3 {
     font-size: 19px;
   }
 
-  .app-info ul li {
+  .content-container ul li {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .app-about {
-    display: flex;
-    flex-direction: column;
+  .content-container p {
+    font-size: 18px;
   }
-
-  .app-info p {
-    font-size: 20px;
-  }
-}
-h4 {
-  padding: 15px 10px;
-  font-size: 20px;
-  text-align: justify;
-  color: #0083ca;
-  font-family: Garamond;
-  text-transform: capitalize;
-}
-ul {
-  list-style-type: none;
-}
-ul li {
-  font-size: 20px;
-  color: #000;
-  text-align: left;
-  font-family: Garamond;
-  padding: 5px;
-  margin: 3px;
-  margin-left: 10px;
-}
-ul li::before {
-  content: "➤";
-  padding-right: 10px;
-  color: #0083ca;
 }
