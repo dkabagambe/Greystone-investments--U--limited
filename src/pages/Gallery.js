@@ -11,16 +11,31 @@ import img8 from "../img/machines/8.JPG";
 import img9 from "../img/machines/9.JPG";
 import img10 from "../img/machines/10.JPG";
 import img12 from "../img/machines/12.JPG";
-import img13 from "../img/machines/exc.jpg";
-import img14 from "../img/machines/exc2.jpg";
-import img15 from "../img/machines/roller1.jpg";
-import img16 from "../img/machines/dozer.jpeg";
-import img17 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_174851.jpg";
+import imgs1 from "../img/machines2/1.jpg";
+import imgs2 from "../img/machines2/2.jpg";
+import imgs3 from "../img/machines2/3.jpg";
+import imgs4 from "../img/machines2/4.jpg";
+import imgs5 from "../img/machines2/5.jpg";
+import imgs6 from "../img/machines2/6.jpg";
+import imgs7 from "../img/machines2/7.jpg";
+import imgs8 from "../img/machines2/8.jpg";
+import imggs1 from "../img/machines2/15.jpg";
+import imggs2 from "../img/machines2/16.jpg";
+import imggs3 from "../img/machines2/17.jpg";
+import imggs4 from "../img/machines2/18.jpg";
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
+    imgs1,
+    imgs2,
+    imgs3,
+    imgs4,
+    imgs5,
+    imgs6,
+    imgs7,
+    imgs8,
     img1,
     img2,
     img3,
@@ -32,12 +47,11 @@ const Gallery = () => {
     img9,
     img10,
     img12,
+    imggs1,
+    imggs2,
+    imggs3,
+    imggs4,
     img1,
-    img13,
-    img14,
-    img15,
-    img16,
-    img17,
   ];
 
   const openImageViewer = useCallback((index) => {

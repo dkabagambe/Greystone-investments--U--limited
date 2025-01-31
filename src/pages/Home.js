@@ -25,6 +25,7 @@ import rukiga2 from "../img/Low cost sealing project works in Rukiga District/Ru
 import kabale4 from "../img/Emergency road repairs along kabale-kisoro road/IMG_6688.jpg";
 import kabale5 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_174103.jpg";
 import kabale6 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_153743.jpg";
+import machine1 from "../img/machines2/IMG-20250107-WA0011.jpg";
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
 
@@ -168,6 +169,12 @@ const Home = () => {
           <div>
             <img src={rukiga} alt="slider" />
             <span>Road construction in Rukiga </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={machine1} alt="slider" />
+            <span>Road construction in kumi district </span>
           </div>
         </SwiperSlide>
       </Swiper>
