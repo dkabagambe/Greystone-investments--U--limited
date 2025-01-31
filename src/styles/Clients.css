@@ -4,27 +4,28 @@
   background-color: #ffffff;
   align-items: center;
   justify-content: center;
-  height: auto;
+  height: 100%;
   width: auto;
 }
 h3 {
   align-items: center;
   padding: 10px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #0083ca;
-  font-family: papyrus;
+  font-family: garamond;
 }
 .card {
   margin: 10px;
   overflow: hidden;
   transition: transform 100ms ease-in;
   cursor: pointer;
+  height: 100%;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .card img {
-  object-fit: contain;
+  object-fit: cover;
   padding: 5px;
   width: 100%;
 }
