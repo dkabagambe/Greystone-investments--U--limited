@@ -11,7 +11,7 @@
 Th {
   border-bottom: 1px solid black;
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(51, 5, 237) !important;
   font-family: garamond;
 }
@@ -21,11 +21,11 @@ strong,
 Tr {
   text-align: left !important;
   font-family: var(--font-base);
-  font-size: 18px;
+  font-size: 20px;
   color: #000;
   font-family: garamond;
-  padding: 1px 5px;
-  font-weight: 300;
+  padding: 10px 5px;
+  font-weight: 400;
 }
 strong {
   text-transform: none;
