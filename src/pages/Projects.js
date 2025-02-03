@@ -10,12 +10,14 @@ const Projects = () => {
           <caption>RELEVANT PROJECTS COMPLETED</caption>
           <Thead>
             <Tr>
-              <Th>Starting Year</Th>
-              <Th>Ending Year</Th>
-              <Th>Years</Th>
+              <Th style={{ textAlign: "center" }}>Starting Year</Th>
+              <Th style={{ textAlign: "center" }}>Ending Year</Th>
+              <Th style={{ textAlign: "center" }}>Years</Th>
 
-              <Th>Contract Identification</Th>
-              <Th>Role of Bidder (Main/Sub Contractor)</Th>
+              <th style={{ textAlign: "center" }}>Contract Identification</th>
+              <Th style={{ textAlign: "center" }}>
+                Role of Bidder (Main/Sub Contractor)
+              </Th>
             </Tr>
           </Thead>
           <Tbody>
