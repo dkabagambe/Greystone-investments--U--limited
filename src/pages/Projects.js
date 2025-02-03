@@ -26,7 +26,7 @@ const Projects = () => {
               <Td>24th September 2024</Td>
               <Td>1 year</Td>
               <Td>
-                <strong> Contract Name: </strong>rehabilitation of
+                <strong> Contract Name: </strong>Rehabilitation of
                 habikyenzi-Keitankombe-Nyakahita-Mushunga-Minizi-rweturwe-Kangorongoro-hakyishenyi;with
                 Accesses to Keitankombe COU, Nyakahita Catholic Church and
                 hakishenyi P/S (10.2KM) and Kyocezo-Butambi Road (2.7Km) in
@@ -67,7 +67,7 @@ const Projects = () => {
               <Td>25th July 2023</Td>
               <Td>1 year</Td>
               <Td>
-                <strong> Contract Name: </strong>low Cost Sealing of selected
+                <strong> Contract Name: </strong>Low Cost Sealing of selected
                 low volume roads ;Lot 4; Kanyeganegye –Nyakaisa Road (5.0 Km) in
                 Rukiga District; Contract No: MOWT/WRKS/21-22/00275/Lot 4/01
                 <br />
@@ -85,8 +85,8 @@ const Projects = () => {
               <Td>23rd May 2022</Td>
               <Td>8 months</Td>
               <Td>
-                <strong> Contract Name: </strong>construction &Rehabilitation of
-                Kagongi-Buwama Community Access Road (33km) Contract Ref:
+                <strong> Contract Name: </strong>Construction & Rehabilitation
+                of Kagongi-Buwama Community Access Road (33km) Contract Ref:
                 NAK(LEGS)WRKS/20-21/00001-10/7 <br />
                 <strong> Description of the works:</strong>
                 Drainage ,Earthworks, Pavement &Ancillary Roadworks <br />
