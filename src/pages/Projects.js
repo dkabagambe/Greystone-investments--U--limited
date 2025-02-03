@@ -15,10 +15,69 @@ const Projects = () => {
               <Th>Years</Th>
 
               <Th>Contract Identification</Th>
-              <Th>Role of Bidder</Th>
+              <Th>Role of Bidder (Main/Sub Contractor)</Th>
             </Tr>
           </Thead>
           <Tbody>
+            <Tr>
+              <Td>20th July 2023</Td>
+              <Td>24th September 2024</Td>
+              <Td>1 year</Td>
+              <Td>
+                <strong> Contract Name: </strong>rehabilitation of
+                habikyenzi-Keitankombe-Nyakahita-Mushunga-Minizi-rweturwe-Kangorongoro-hakyishenyi;with
+                Accesses to Keitankombe COU, Nyakahita Catholic Church and
+                hakishenyi P/S (10.2KM) and Kyocezo-Butambi Road (2.7Km) in
+                Rubanda District; Total Length =12.9km Contract No:
+                MoWT/WRKS/CRIP/22-23/100
+                <br />
+                <strong> Description of the works:</strong>
+                Earthworks, drainage works, gravelling <br />
+                <strong> Amount of the Contract:</strong> UGX 1,966,020,420
+                <br />
+                <strong> Name of the Employer:</strong> Ministry of Works &
+                Transport Address: P.O. Box 7174, Kampala
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+
+            <Tr>
+              <Td> 28th September 2023</Td>
+              <Td>24th April 2024</Td>
+              <Td>1 year</Td>
+              <Td>
+                <strong> Contract Name: </strong>Emergency Repair Works At Km
+                16+000- 16+200 Along Kabale- Kisoro Road Contract No:
+                UNRA/WORKS/2022-2023/00106
+                <br />
+                <strong> Description of the works:</strong>
+                Earthworks, drainage works, gravelling <br />
+                <strong> Amount of the Contract:</strong> UGX 3,743,082,622
+                <br />
+                <strong> Name of the Employer:</strong> Uganda National Roads
+                Authority – Kabale Station Address: P.O. Box 248434 Kampala
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+
+            <Tr>
+              <Td>1st June 2022</Td>
+              <Td>25th July 2023</Td>
+              <Td>1 year</Td>
+              <Td>
+                <strong> Contract Name: </strong>low Cost Sealing of selected
+                low volume roads ;Lot 4; Kanyeganegye –Nyakaisa Road (5.0 Km) in
+                Rukiga District; Contract No: MOWT/WRKS/21-22/00275/Lot 4/01
+                <br />
+                <strong> Description of the works:</strong>
+                Earthworks, drainage works, gravelling <br />
+                <strong> Amount of the Contract:</strong> UGX 4, 899,268,285
+                <br />
+                <strong> Name of the Employer:</strong> Ministry of Works &
+                Transport Address: P.O. Box 7174, Kampala
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
             <Tr>
               <Td>11th October 2021</Td>
               <Td>23rd May 2022</Td>
@@ -36,6 +95,7 @@ const Projects = () => {
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
+
             <Tr>
               <Td>9th May 2019</Td>
               <Td>8th January 2022</Td>
