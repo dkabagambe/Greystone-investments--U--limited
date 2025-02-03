@@ -11,7 +11,7 @@
 Th {
   border-bottom: 1px solid black;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem !important;
   color: rgb(51, 5, 237) !important;
   font-family: garamond;
 }
