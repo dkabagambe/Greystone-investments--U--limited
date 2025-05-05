@@ -26,10 +26,12 @@ import kabale4 from "../img/Emergency road repairs along kabale-kisoro road/IMG_
 import kabale5 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_174103.jpg";
 import kabale6 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_153743.jpg";
 import machine1 from "../img/machines2/IMG-20250107-WA0011.jpg";
-import zonal from "../img/soroti-project/249895d1-543c-429b-82ea-57929073fedd.JPG";
-import zonal1 from "../img/soroti-project/37de908e-5c09-4912-bc9f-f06712755dc5.JPG";
-import zonal2 from "../img/soroti-project/3c39eca3-0338-4c50-9b56-9f63141671cc.JPG";
-import kumi from "../img/kumi/kumi.jpg";
+import zonal from "../img/soroti-project/3c39eca3-0338-4c50-9b56-9f63141671cc.jpg";
+import zonal1 from "../img/soroti-project/a8d164ff-c706-45eb-b4d3-e24e8397e97b.jpg";
+import zonal2 from "../img/soroti-project/179a135b-61c8-43ec-b4b3-8c950db612e5.jpg";
+import kumi from "../img/kumi/kumi2.jpg";
+import kumi1 from "../img/kumi/kumi.jpg";
+import kumi2 from "../img/kumi/IMG_8328.jpg";
 import dam from "../img/Kajamaka earth dam.jpg";
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
@@ -93,12 +95,27 @@ const Home = () => {
         <SwiperSlide className={styles.swiperslide}>
           <div>
             <img src={zonal2} alt="slider" />
-            <span> in soroti</span>
+            <span>
+              Construction of Zonal Animal Zonal Animal diseases control centres
+              in soroti
+            </span>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
           <div>
             <img src={kumi} alt="slider" />
+            <span>Community Access Roads in Ongino Sub County Kumi </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={kumi1} alt="slider" />
+            <span>Community Access Roads in Ongino Sub County Kumi </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={kumi2} alt="slider" />
             <span>Community Access Roads in Ongino Sub County Kumi </span>
           </div>
         </SwiperSlide>
