@@ -27,7 +27,10 @@ import kabale5 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_174
 import kabale6 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_153743.jpg";
 import machine1 from "../img/machines2/IMG-20250107-WA0011.jpg";
 import zonal from "../img/soroti-project/249895d1-543c-429b-82ea-57929073fedd.JPG";
+import zonal1 from "../img/soroti-project/37de908e-5c09-4912-bc9f-f06712755dc5.JPG";
+import zonal2 from "../img/soroti-project/3c39eca3-0338-4c50-9b56-9f63141671cc.JPG";
 import kumi from "../img/kumi/kumi.jpg";
+import dam from "../img/Kajamaka earth dam.jpg";
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
 
@@ -60,14 +63,37 @@ const Home = () => {
       >
         <SwiperSlide className={styles.swiperslide}>
           <div>
-            <img src={zonal} alt="slider" />
-            <span> Zonal Animal diseases control centres in soroti </span>
+            <img src={dam} alt="slider" />
+            <span>kajamaka earth dam in kumi district </span>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
           <div>
             <img src={machine1} alt="slider" />
             <span>kajamaka earth dam in kumi district </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={zonal} alt="slider" />
+            <span>
+              Construction of Zonal Animal Zonal Animal diseases control centres
+            </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={zonal1} alt="slider" />
+            <span>
+              Construction of Zonal Animal Zonal Animal diseases control centres
+              in soroti
+            </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={zonal2} alt="slider" />
+            <span> in soroti</span>
           </div>
         </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
