@@ -12,7 +12,7 @@ const Projects = () => {
             <Tr>
               <Th style={{ textAlign: "center" }}>Starting Year</Th>
               <Th style={{ textAlign: "center" }}>Ending Year</Th>
-              <Th style={{ textAlign: "center" }}>Years</Th>
+              <Th style={{ textAlign: "center" }}>Duration</Th>
 
               <th style={{ textAlign: "center" }}>Contract Identification</th>
               <Th style={{ textAlign: "center" }}>
@@ -21,6 +21,64 @@ const Projects = () => {
             </Tr>
           </Thead>
           <Tbody>
+            <Tr>
+              <Td> 4th December 2024</Td>
+              <Td> 4th November 2025</Td>
+              <Td> 11 months</Td>
+              <Td>
+                <strong> Contract Name: </strong>construction of zonal animal
+                diseases control centres under avcp-1 project - lot 1: soroti
+                zonal animal diseases control centre
+                <br />
+                <strong> Description of the works:</strong>
+                Design, construction, and installation of administrative
+                facilities, livestock handling infrastructure, perimeter
+                fencing, access roads, and water supply systems.
+                <br />
+                <strong> Amount of the Contract:</strong>UGX 2,732,535,530
+                <br />
+                <strong> Name of the Employer:</strong> GOU MAAIF
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>29th jan 2025</Td>
+              <Td>28th September 2025</Td>
+              <Td> 8 months</Td>
+              <Td>
+                <strong> Contract Name: </strong>Rehabilitation of (11.14) Km of
+                Community Access Roads in Ongino Sub County Kumi District Under
+                Batch A
+                <br />
+                <strong> Description of the works:</strong>
+                Site preparatory works ,Setting out and site clearance ,Earth
+                works 11.14km,Drainage works ,Gravelling and completion works
+                and Preliminaries and general items <br />
+                <strong> Amount of the Contract:</strong> UGX 1,007,426,151
+                <br />
+                <strong> Name of the Employer:</strong> Kumi District Local
+                Government
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
+            <Tr>
+              <Td>4th September 2024 </Td>
+              <Td> 4th July 2025 </Td>
+              <Td> 10 months</Td>
+              <Td>
+                <strong> Contract Name: </strong> Construction of kajamaka earth
+                dam in kumi district under the local economic growth
+                support(legs) project
+                <br />
+                <strong> Description of the works:</strong>
+                Design, excavation, earthworks, and infrastructure development
+                <br />
+                <strong> Amount of the Contract:</strong> UGX 3,875,445,343.00
+                <br />
+                <strong> Name of the Employer:</strong> IsdB and GOU
+              </Td>
+              <Td> Main Contractor </Td>
+            </Tr>
             <Tr>
               <Td>20th July 2023</Td>
               <Td>24th September 2024</Td>
@@ -42,7 +100,6 @@ const Projects = () => {
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
-
             <Tr>
               <Td> 28th September 2023</Td>
               <Td>24th April 2024</Td>
@@ -61,7 +118,6 @@ const Projects = () => {
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
-
             <Tr>
               <Td>1st June 2022</Td>
               <Td>25th July 2023</Td>
@@ -97,7 +153,6 @@ const Projects = () => {
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
-
             <Tr>
               <Td>9th May 2019</Td>
               <Td>8th January 2022</Td>
