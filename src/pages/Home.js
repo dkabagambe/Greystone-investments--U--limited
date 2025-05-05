@@ -26,6 +26,8 @@ import kabale4 from "../img/Emergency road repairs along kabale-kisoro road/IMG_
 import kabale5 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_174103.jpg";
 import kabale6 from "../img/fwdemergencyrepairskabalekisororoad/IMG_20240817_153743.jpg";
 import machine1 from "../img/machines2/IMG-20250107-WA0011.jpg";
+import zonal from "../img/soroti-project/249895d1-543c-429b-82ea-57929073fedd.JPG";
+import kumi from "../img/kumi/kumi.jpg";
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
 
@@ -56,6 +58,24 @@ const Home = () => {
         updateOnWindowResize={true}
         className={styles.myswiper}
       >
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={zonal} alt="slider" />
+            <span> Zonal Animal diseases control centres in soroti </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={machine1} alt="slider" />
+            <span>kajamaka earth dam in kumi district </span>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <div>
+            <img src={kumi} alt="slider" />
+            <span>Community Access Roads in Ongino Sub County Kumi </span>
+          </div>
+        </SwiperSlide>
         <SwiperSlide className={styles.swiperslide}>
           <div>
             <img src={kabale4} alt="slider" />
@@ -169,12 +189,6 @@ const Home = () => {
           <div>
             <img src={rukiga} alt="slider" />
             <span>Road construction in Rukiga </span>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>
-          <div>
-            <img src={machine1} alt="slider" />
-            <span>Road construction in kumi district </span>
           </div>
         </SwiperSlide>
       </Swiper>

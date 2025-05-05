@@ -26,8 +26,8 @@ const Projects = () => {
               <Td> 4th November 2025</Td>
               <Td> 11 months</Td>
               <Td>
-                <strong> Contract Name: </strong>construction of zonal animal
-                diseases control centres under avcp-1 project - lot 1: soroti
+                <strong> Contract Name: </strong>Construction of Zonal Animal
+                diseases control centres under AVCP-1 project - lot 1: soroti
                 zonal animal diseases control centre
                 <br />
                 <strong> Description of the works:</strong>
@@ -37,7 +37,8 @@ const Projects = () => {
                 <br />
                 <strong> Amount of the Contract:</strong>UGX 2,732,535,530
                 <br />
-                <strong> Name of the Employer:</strong> GOU MAAIF
+                <strong> Name of the Employer:</strong> Ministry of Agriculture,
+                Animal Industry and Fisheries
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
@@ -75,7 +76,8 @@ const Projects = () => {
                 <br />
                 <strong> Amount of the Contract:</strong> UGX 3,875,445,343.00
                 <br />
-                <strong> Name of the Employer:</strong> IsdB and GOU
+                <strong> Name of the Employer:</strong> Government of Uganda
+                represented by Ministry of Local Government
               </Td>
               <Td> Main Contractor </Td>
             </Tr>
